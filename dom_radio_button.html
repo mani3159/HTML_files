@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function buttonClick(){
+var rd1=document.getElementById("rd1");
+var rd2=document.getElementById("rd2");
+if(rd1.checked==true){
+window.alert("The channel selected is "+rd1.value);
+}
+else if(rd2.checked==true){
+window.alert("The channel selected is "+rd2.value);
+}
+else{
+window.alert("No channel is selected");
+}
+}
+</script>
+</head>
+<body>
+<input type="radio" id="rd1" value="Mani" name="Mani">Mani</input>
+<input type="radio" id="rd2" value="Honey" name="Honey">Honey</input>
+<button onclick=buttonClick()>Click me</button>
+</body>
+</html>
