@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function fn1(){
+var para=document.getElementsByTagName("p");
+for(var i=0;i<para.length;i++){
+para[i].style.color="blue";
+}
+}
+</script>
+</head>
+<body>
+<p>THis is para 1</p>
+<p>This is para 2</p>
+<br>
+<button onclick="fn1()">Click Me</button>
+</body>
