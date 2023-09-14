@@ -1,0 +1,17 @@
+<!DOPCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+function newImage()
+{
+document.getElementById("image").src="sun.jpg";
+}
+function oldImage(){
+document.getElementById("image").src="moon.jpg";
+}
+</script>
+</head>
+<body>
+<img id="image" onmouseover="newImage()" onmouseout="oldImage()" src="moon.jpg" width="500"></img>
+</body>
+</html>

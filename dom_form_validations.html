@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function validate(){
+var user=document.getElementById("tb");
+var pwd=document.getElementById("pwd");
+if(user.value.trim()=="" || pwd.value.trim()==""){
+alert("Blank Values are not allowed");
+return false;
+}
+else{
+true;
+}
+}
+</script>
+</head>
+<form onsubmit="return validate()" action="message.html">
+<input type="text" id="tb" placeholder="username"></input>
+<input type="password" id="pwd" placeholder="password"></input>
+<button type="submit">Submit</button>
+</form>
+</html>

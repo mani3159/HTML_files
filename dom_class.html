@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function changeStyle(){
+var element=document.getElementsByClassName("mypara");
+for(var i=0;element.length;i++)
+{
+element[i].style.color="red";
+}
+}
+</script>
+</head>
+<body>
+<h1>DOM Manipulation by class Name</h1>
+<p class="mypara">This is my first para</p>
+<p class="mypara">This is my second para</p>
+<p class="mypara">This is my third para</p>
+<br>
+<button onclick="changeStyle()">Click Me</button>
+</body>
+</html>
